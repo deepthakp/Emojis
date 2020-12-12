@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+/* id selector */
+#heading{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size:4em;
+}
+/* element selector */
+body{
+    background-color: lightyellows;
+    text-align: center;
+}
+
+/*class selector */
+.emoji-face{
+    height:100px;
+    width:100px;
+    background-color: #f2dd68;
+border-radius: 50%;
+box-shadow: 2px 0px 2px 2px rgba(0,0,0,0.07);
+position: relative;
+float: left;
+margin-left: 20px;
+}
+.eye1{
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    }
+    
+    .eye2{
+    background: #995710;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    }
+    .mouth{
+        background: #995710;
+        height: 34px;
+        width: 70px;
+        /* border radius - top-left corner, top-right corner, bottom-right corner, bottom-left corner, */
+        border-radius: 0 0 90px 90px;
+        position: absolute;
+        top: 52px;
+        left: 15px;
+        z-index: 1;
+overflow: hidden;
+        }
+        .tongue{
+            background: #e25d5d;
+            height: 38px;
+            width: 38px;
+            border-radius: 40%;
+            top: 20px;
+            left: 15px;
+            position: absolute;
+            z-index: 2;
+            }
+            .mouth-shock{
+                background: #995710;
+                height: 25px;
+                width: 23px;
+                border-radius: 50%;
+                position: absolute;
+                top: 52px;
+                left: 40px;
+                }
+                
+                .mouth-speechless{
+                    background: #995710;
+                    height: 5px;
+                    width: 70px;
+                    position: absolute;
+                    top: 60px;
+                    left: 16px;
+                    }
+                    .wrapper{
+                        position: absolute;
+                        top: 150px;
+                        left: 600px
+                        }
+                        .write-up{
+                            background-color: #d8aa2b;
+                            padding: 5% 10%;
+                            margin: 10% 20%;
+                            text-align: center;
+                            border-radius: 20px;
+                            }
+                            
+                            h1{
+                            font-size: 2em;
+                            }
+                            
+                            p{
+                            font-size: 1.5em;
+                            }
+                            
+                    /* Animation */
+.emoji-face:hover{
+    transform: scale(1.25);
+    }
+    
+            
+                                
+    
+    
